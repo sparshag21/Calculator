@@ -1,0 +1,6 @@
+[
+  "calctest.py::test_numbers_3_4_add",
+  "calctest.py::test_numbers_3_4_sub",
+  "calctest.py::test_numbers_3_4_multiply",
+  "calctest.py::test_numbers_3_4_div"
+]
