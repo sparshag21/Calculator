@@ -1,22 +1,22 @@
 import calc as module 
 
-class TestClass:
+# class TestClass:
 
-    def test_function_1(self):
-        # Override the Python built-in input method 
-        module.input = lambda: '4'
-        # Call the function you would like to test (which uses input)
-        output = module.choose()  
-        assert output == 4
+#     def test_function_1(self):
+#         # Override the Python built-in input method 
+#         module.input = lambda: '4'
+#         # Call the function you would like to test (which uses input)
+#         output = module.choose()  
+#         assert output == 4
 
-    def test_function_2(self):
-        module.input = lambda: '3'
-        output = module.choose()  
-        assert not output == 4        
+#     def test_function_2(self):
+#         module.input = lambda: '3'
+#         output = module.choose()  
+#         assert not output == 4        
 
-    def teardown_method(self, method):
-        # This method is being called after each test case, and it will revert input back to original function
-        module.input = input
+#     def teardown_method(self, method):
+#         # This method is being called after each test case, and it will revert input back to original function
+#         module.input = input
 
 def test_numbers_3_4_add():
     assert module.add(3,4) == 7 
