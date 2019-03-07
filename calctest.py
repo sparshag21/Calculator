@@ -21,26 +21,26 @@ class TestClass:
 def test_numbers_3_4_add():
     assert module.add(3,4) == 7 
 
-# def test_addfalse():
-#     assert not module.add(4,4) == 2  
+def test_addfalse():
+    assert not module.add(4,4) == 2  
 
 def test_numbers_3_4_sub():
     assert module.sub(3,4) == -1 
 
-# def test_subfalse():
-#     assert not module.sub(4,4) == 2  
+def test_subfalse():
+    assert not module.sub(4,4) == 2  
 
 def test_numbers_3_4_multiply():
     assert module.multiply(3,4) == 12 
       
-# def test_multiplyfalse():
-#     assert not module.multiply(4,4) == 2  
+def test_multiplyfalse():
+    assert not module.multiply(4,4) == 2  
 
 def test_numbers_3_4_div():
     assert module.div(3,4) == 0.75    
 
-# def test_divfalse():
-#     assert not module.div(4,4) == 2    
+def test_divfalse():
+    assert not module.div(4,4) == 2    
 
 # import mock
 
