@@ -1,6 +1,12 @@
 [
+  "calctest.py::TestClass::()::test_function_1",
+  "calctest.py::TestClass::()::test_function_2",
   "calctest.py::test_numbers_3_4_add",
+  "calctest.py::test_addfalse",
   "calctest.py::test_numbers_3_4_sub",
+  "calctest.py::test_subfalse",
   "calctest.py::test_numbers_3_4_multiply",
-  "calctest.py::test_numbers_3_4_div"
+  "calctest.py::test_multiplyfalse",
+  "calctest.py::test_numbers_3_4_div",
+  "calctest.py::test_divfalse"
 ]

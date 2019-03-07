@@ -1,1 +1,5 @@
-{}
+{
+  "calctest2.py::TestClass::()::test_choose": true,
+  "calctest2.py::test_function": true,
+  "calctest2.py::test_what_happens_when_answering_yes": true
+}

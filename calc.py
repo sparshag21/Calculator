@@ -5,6 +5,7 @@ Created on Mon Mar  4 09:28:49 2019
 
 @author: sparsh
 """
+
 def add (a,b):
     return a+b;
 def sub (a,b):
@@ -12,13 +13,17 @@ def sub (a,b):
 def multiply (a,b):
     return a*b;
 def div (a,b):
-    return a/b;            
+    return a/b;   
+def choose():
+    return int(input()); 
+
+
 # print("1. Addition");
 # print("2. Subtraction");
 # print("3. Multiplication");
 # print("4. Division");
 # print("5. Exit");
-# choice = int(input("Enter your choice: "));
+# choice = choose();
 # if (choice>=1 and choice<=4):
 #     print("Enter two numbers: ");
 #     num1 = int(input());
