@@ -1,2 +1,2 @@
 # Calculator
-Simple calculator made using python
+Simple calculator made using python and pytest.
